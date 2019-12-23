@@ -2,7 +2,7 @@
 #host=www.fhadsfads.com
 echo running test
 echo "17=0.5 27=0 22=0" > /dev/pi-blaster
-host=www.google.com
+host=www.bbc.com
 validhost=$(ping -c 1 $host| grep -E '(from)' | wc -l)
 declare -i packet_loss
 declare -i success
